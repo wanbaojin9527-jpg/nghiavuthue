@@ -1,0 +1,7 @@
+{
+  "name": "ConCung Me&Be Electronic Contract Portal",
+  "description": "A high-end, professional electronic contract signing platform for secure financial transactions.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

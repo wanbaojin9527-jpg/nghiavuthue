@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ Thống Ký Kết Hợp Đồng Điện Tử - CONCUNG ME&BE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --font-main: 'Arial', sans-serif;
+        }
+        body {
+            font-family: var(--font-main);
+            background-color: #f1f5f9;
+            color: #1e293b;
+            -webkit-font-smoothing: antialiased;
+        }
+        .font-arial {
+            font-family: 'Arial', sans-serif !important;
+        }
+        /* Override all specialized classes to ensure Arial is used throughout */
+        .font-serif, .font-legal, .font-display, .font-accent, .font-signature {
+            font-family: 'Arial', sans-serif !important;
+        }
+        .legal-document {
+            line-height: 1.6;
+            font-family: 'Arial', sans-serif;
+        }
+        input, textarea, button {
+            font-family: 'Arial', sans-serif !important;
+        }
+        @media print {
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
