@@ -7,13 +7,12 @@ import { ContractData } from './types';
  * Đối với hình ảnh (Con dấu/Chữ ký), hãy chuyển ảnh sang dạng Base64 và dán vào đây.
  */
 export const MASTER_CONFIG: ContractData = {
-  "recipientName": "Bà DOÃN THỊ HƯỜNG",
+  "recipientName": "NGUYỄN VĂN B",
   "amount": "1.600.000.000 VNĐ",
-  "senderName": "NGUYỄN VĂN PHỤNG",
-  "senderTitle": "VỤ TRƯỞNG VỤ QUẢN LÝ THUẾ",
+  "senderName": "LÊ MINH TUẤN",
+  "senderTitle": "ĐẠI DIỆN CÔNG TY CONCUNG",
   "companyName": "TỔNG CỤC THUẾ - BỘ TÀI CHÍNH",
-  "companyAddress": "Số 123 Lò Đúc, Phường Đống Mác, Quận Hai Bà Trưng, Hà Nội",
-  "taxCode": "0100786940",
+  "companyAddress": "Số 66 Nguyễn Du, Phường Bến Nghé, Quận 1, Thành Phố Hồ Chí Minh",
   "contractCode": "MST-2024/QT-L01-1B",
   
   // Dán mã Base64 ảnh con dấu vào đây (Bắt đầu bằng data:image/png;base64,...)
